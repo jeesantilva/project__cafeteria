@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600&family=Lato:wght@100;300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+    background-color:#fff;
+}
+.topo{
+    width: 100vw;
+    position: fixed;
+    background-color: #604829;
+    z-index: 1;
+}
+.topo img{
+    width: 100px;
+    position: relative;
+    left: 15%;
+}
+.secao_topo{
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.link_topo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #c4a47c;
+    font-weight: 700;
+    padding: 4px;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 3px #000000;
+    
+}
+
+.banner, .imagem_1, .imagem_2, .contatos, .horarios{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner{
+    background-image: url("/img/parallax-imagem1.png");
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 100px;
+    color:#fff;
+    text-align: center;
+    margin-left: 60px;
+    font-weight: 400;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+.conteudo_textual{
+
+    padding: 80px 0px;
+}
+
+.conteudo_textual p{
+    max-width: 1024px;
+    padding: 0px 20px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.conteudo_textual h2{
+    margin-bottom: 15px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #c4a47c;
+    text-align: center;
+
+}
+
+.imagem_1{
+    background-image: url("/img/parallax-imagem2.jpg");
+    height: 50vh;
+}
+
+.imagem_2{
+    background-image: url("/img/parallax-imagem3.jpg");
+    height: 50vh;
+}
+
+h3{
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #fff;
+}
+.destaque{
+    background-color: #604829;
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.contatos{
+    background-image: url("/img/parallax-imagem4.png");
+    height: 100vh;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #666;
+}
+
+.subtitulo_contato{
+    font-size: 24px;
+    color:#fff;
+    background-color: #604829;
+    padding: 10px;
+    width: 500px;
+    position:absolute;
+    top: 5%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+iframe{
+    max-width: 850px;
+    height: 400px;
+    position: absolute;
+    top: 15%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box-contatos{
+    background-color: #604829;
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    left: 0;
+   margin: auto;
+}
+
+.box-contatos p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color:#fff;
+    text-align: center;
+    text-shadow: 3px 3px 6px #000000
+}
+
+.horarios{
+    background-image: url("/img/cafeteria.jpg");
+    height: 85vh;
+}
+
+.horarios h2{
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: normal;
+    position: absolute;
+    top: 15%;
+    right: 0;
+    left: 0;
+}
+
+.lista-horarios{
+
+    max-width: 768px;
+    list-style: none;
+
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+
+}
+
+.lista-horarios li{
+    position: relative;
+}
+
+.lista-horarios li h3{
+    margin-bottom: 20px;
+}
+
+.lista-horarios li div{
+    width: 70%;
+    height: 1px;
+    background-color: #ACACAC ;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    
+}
+.lista-horarios p, .texto_fechado{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+
+}
+
+span{
+    color: #c4a47c;
+}
+.horarios p{
+    color: #ACACAC;
+}
+
+.horarios h3, .horarios p, .horarios span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+
+
+.rodape{
+    width: 100vw;
+    padding: 20px 0px;
+    background-color: #000000;
+    position: relative;
+
+}
+
+.rodape p{
+    color: #fff;
+    text-align: center;
+}
+
+.imagem_seta{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+}
+
