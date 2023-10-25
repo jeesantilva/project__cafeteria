@@ -45,7 +45,7 @@ body{
 }
 
 .banner{
-    background-image: url("/parallax-imagem1.png");
+    background-image: url("/img/parallax-imagem1.png");
     height: 100vh;
 }
 
@@ -89,12 +89,12 @@ h2{
 }
 
 .imagem_1{
-    background-image: url("/parallax-imagem2.jpg");
+    background-image: url("/img/parallax-imagem2.jpg");
     height: 50vh;
 }
 
 .imagem_2{
-    background-image: url("/parallax-imagem3.jpg");
+    background-image: url("/img/parallax-imagem3.jpg");
     height: 50vh;
 }
 
@@ -119,7 +119,7 @@ h3{
 }
 
 .contatos{
-    background-image: url("/parallax-imagem4.png");
+    background-image: url("/img/parallax-imagem4.png");
     height: 100vh;
 }
 
@@ -172,7 +172,7 @@ iframe{
 }
 
 .horarios{
-    background-image: url("/cafeteria.jpg");
+    background-image: url("/img/cafeteria.jpg");
     height: 85vh;
 }
 
